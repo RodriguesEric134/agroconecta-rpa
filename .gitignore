@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Segredos
+.env
+*.env
+!.env.example
+
+# Dados gerados em runtime
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep

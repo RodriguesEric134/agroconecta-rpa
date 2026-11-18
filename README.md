@@ -1,3 +1,7 @@
+> **AgroConecta** — Global Solution FIAP 2026.2 (CitizenTech) · ODS 2
+> Repositório da disciplina **Robotic Process Automation (RPA)**.
+> Pipeline de dados (Big Data): [agroconecta-bigdata](https://github.com/RodriguesEric134/agroconecta-bigdata)
+
 # RPA — Robô de Cotações Agrícolas do AgroConecta (n8n)
 
 O robô substitui a consulta manual diária ao portal de preços da **CEAGESP**. Todo dia às 07:30 ele:
@@ -93,7 +97,7 @@ SELECT data_cotacao, tipo, mensagem FROM alertas_preco ORDER BY data_cotacao DES
 
 ## Limites do n8n Cloud
 - **Tempo de execução:** máximo de **180 s** por execução. A carga inicial levou 52 s, e as execuções diárias levam de 5 a 15 s.
-- **Trial:** se o plano for trial, exporte os workflows (menu ⋯ → *Download*) para `rpa/n8n/exports/` antes da entrega.
+- **Trial:** se o plano for trial, exporte os workflows (menu ⋯ → *Download*) para `n8n/exports/` antes da entrega.
 
 ## Versão Python (referência)
 O pacote [`bot_cotacoes/`](bot_cotacoes/) é a primeira versão do robô, em Python. Ela tem as mesmas regras e serviu de base para o fluxo no n8n.

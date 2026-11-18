@@ -11,6 +11,14 @@ O robô substitui a consulta manual diária ao portal de preços da **CEAGESP**.
 4. detecta variações de preço relevantes e **avisa os produtores no Telegram**;
 5. registra cada execução em tabelas de log.
 
+## Equipe
+
+| Integrante | RM |
+|---|---|
+| Eric de Carvalho Rodrigues | RM550249 |
+| Renato Izumi Ichikawa | RM99242 |
+| Bernardo Pinto Rocha | RM99209 |
+
 ```
                        n8n Cloud (gsultimosemestreultimoano.app.n8n.cloud)
 ┌──────────────────────────────────────────────────────────────────────────────────────┐

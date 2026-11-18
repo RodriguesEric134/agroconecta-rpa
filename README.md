@@ -33,6 +33,10 @@ O robô substitui a consulta manual diária ao portal de preços da **CEAGESP**.
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+## Vídeo da automação
+
+▶️ **[Assista no YouTube](https://youtu.be/ykcCVXf_c64)** — o robô executando no n8n, os dados no Supabase e o alerta chegando no Telegram (até 3 minutos).
+
 ## Workflows
 
 | Workflow | ID | Status | Função |
